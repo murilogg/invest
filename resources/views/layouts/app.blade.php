@@ -29,7 +29,7 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">Home</a>
+                <a class="navbar-brand" href="{{ url('/home') }}">Home</a>
                 @if(!Auth::guest())
                 <a class="navbar-brand" href="{{ url('/index') }}">Sua Conta</a>
                 @endif
@@ -40,7 +40,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-
+                        <!--alguma coisa navbar-->
                     </ul>
 
                     <!-- Right Side Of Navbar -->

@@ -12,19 +12,6 @@ class OperacoesBancariasControler extends Controller
         return view('index');
     }
 
-    public function abrirConta($abrirConta) 
-    {
-        $abrirConta = Conta();
-        $abrirConta->status = true;
-        $abrirConta->save();
-        return view('abrirConta');
-    }
-
-    public function fecharConta() 
-    {
-        echo "conta fechada";
-    }
-
     public function depositarConta() 
     {
         
