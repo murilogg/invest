@@ -16,9 +16,9 @@ class CreateEmpresasTable extends Migration
         Schema::create('empresas', function (Blueprint $table) {
             $table->increments('id');
             $table->string('nome'); // nome da empresa
-            $table->string('descricao'); //descrição sobre a empresa
             $table->float('taxa'); //taxa de juros que rende ao investidor
             $table->string('indexer'); //sigla selic cdi 
+            $tale->string('categoria'); //comida, minerio
             $table->timestamps();
         });
     }
